@@ -59,30 +59,4 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-		  <id>feedDemoSecDevOps</id>
-		  <url>https://pkgs.dev.azure.com/mbid/DemoSecDevOps/_packaging/feedDemoSecDevOps/maven/v1</url>
-		  <releases>
-		    <enabled>true</enabled>
-		  </releases>
-		  <snapshots>
-		    <enabled>true</enabled>
-		  </snapshots>
-		</repository>
-	</repositories>
-	
-	<distributionManagement>
-		<repository>
-		  <id>feedDemoSecDevOps</id>
-		  <url>https://pkgs.dev.azure.com/mbid/DemoSecDevOps/_packaging/feedDemoSecDevOps/maven/v1</url>
-		  <releases>
-		    <enabled>true</enabled>
-		  </releases>
-		  <snapshots>
-		    <enabled>true</enabled>
-		  </snapshots>
-		</repository>
-	</distributionManagement>
-
 </project>
